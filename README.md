@@ -8,14 +8,16 @@ Requisitos para utilização:
 
 Instruções para inicialização do projeto:
 1- Criar base de dados "incidente"
-2- Baixar o projeto para uma pasta de preferencia na raiz do disco local
+2- Baixar o projeto para uma pasta de preferencia na raiz do disco local chamada incidente
 3- Abrir terminal na pasta do projeto
-4- Executar "php artisan preset bootstrap"
-5- Executar "npm install"
-6- Executar "npm run dev" 
-7- Executar "php artisan migrate:fresh"
-8- Executar "php artisan db:seed"
-9- Executar "php artisan serve"
-10- Abra seu navegador e acesse o link: http://localhost:8000
-11- Agora a aplicação pode ser utilizada
-12- Qualquer dúvida estou à disposição.
+4- Executar "composer install"
+5- Executar "php artisan key:generate"
+6- Executar "npm install"
+7- Executar "npm run dev" 
+8- Executar "php artisan migrate:fresh"
+9- Executar "php artisan db:seed"
+10- Executar "php artisan serve"
+11- Abra seu navegador e acesse o link: http://localhost:8000
+12- Agora a aplicação pode ser utilizada
+
+Qualquer dúvida estou à disposição.
